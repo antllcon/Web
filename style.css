@@ -1,15 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap' );
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap');
 
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-#test {
-    background-color: #666;
-    font-family: "Lora", serif;
-    font-style: normal;
+.header_subjects {
+    display: flex;
+    padding: 28px 150px;
+    justify-content: space-between;
 }
 
+.header_buttons {
+    display: flex;
+    width: 376px;
+    justify-content: space-between;
+}
 
+.main_title {
+    padding: 82px 0 113px;
+    text-align: center;
+}
 
+.potom_pridumaesh {
+    font-family: Lora;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 2px;
+}
+
+.potom_pridumaesh2 {
+    font-family: Oxygen;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.header_img {
+    width: 100%;
+}
+
+.main_content {
+    padding: 140px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.text {
+    font-family: Oxygen;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    max-width: 960px;
+}
+
+.footer {
+    background-color: gray;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 28px 150px;
+    justify-content: space-between;
+}
