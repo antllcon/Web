@@ -5,52 +5,70 @@
     padding: 0;
 }
 
+.buttons {
+    font-family: Oxygen, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
+.buttons > a {
+    text-decoration: none;
+    color: black;
+}
+
+/* разобраться что лучше делать padding или height */
 .header_subjects {
     display: flex;
-    padding: 28px 150px;
+    padding: 17px 250px;
     justify-content: space-between;
 }
 
-.header_buttons {
+.header_subjects_buttons {
     display: flex;
     width: 376px;
-    justify-content: space-between;
+    justify-content: flex-end;
+    color: black;
 }
 
-.main_title {
-    padding: 82px 0 113px;
+.main_title_block {
+    padding-top: 89px;
+    padding-bottom: 113px;
     text-align: center;
 }
 
-.potom_pridumaesh {
-    font-family: Lora;
+.main_title_block_first_text {
+    font-family: Lora, serif;
     font-size: 50px;
     font-weight: 400;
     line-height: 51px;
     letter-spacing: 2px;
+    margin-top: -7px;
 }
 
-.potom_pridumaesh2 {
-    font-family: Oxygen;
+.main_title_block_two_text {
+    font-family: Oxygen, sans-serif;
     font-size: 17px;
     font-weight: 400;
     line-height: 20px;
+    margin-top: 20px;
+    color: #2e2e2e;
 }
 
-.header_img {
+.main_image {
     width: 100%;
 }
 
 .main_content {
-    padding: 140px 0;
+    padding: 140px 240px 135px;
     display: flex;
     flex-direction: column;
     gap: 50px;
     align-items: center;
 }
 
-.text {
-    font-family: Oxygen;
+.main_content_text {
+    font-family: Oxygen, sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 35px;
@@ -58,10 +76,33 @@
 }
 
 .footer {
-    background-color: gray;
+    background-image: url("sous/footer_background.jpg");
+    background-size: 100%;
+    background-position-y: center;
     display: flex;
-    color: white;
+    justify-content: center;
+    height: 89px;
+}
+
+.footer_subjects {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 240px;
     align-items: center;
-    padding: 28px 150px;
     justify-content: space-between;
+}
+
+.footer_subjects_logo path {
+    fill: #fff;
+}
+
+.footer_subjects_buttons {
+    display: flex;
+
+}
+
+.footer_subjects_buttons a {
+    color: white;
+    opacity: 60%;
 }
