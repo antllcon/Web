@@ -85,6 +85,8 @@
 }
 
 .footer_subjects {
+    background-color: black;
+    opacity: 60%;
     display: flex;
     width: 100%;
     box-sizing: border-box;
@@ -99,10 +101,8 @@
 
 .footer_subjects_buttons {
     display: flex;
-
 }
 
 .footer_subjects_buttons a {
     color: white;
-    opacity: 60%;
 }
