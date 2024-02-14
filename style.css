@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .buttons {
@@ -76,20 +77,18 @@
 }
 
 .footer {
-    background-image: url("sous/footer_background.jpg");
-    background-size: 100%;
-    background-position-y: center;
     display: flex;
     justify-content: center;
     height: 89px;
 }
 
 .footer_subjects {
-    background-color: black;
-    opacity: 60%;
+    background-image: url("sous/footer_background.jpg");
+    background-size: 100%;
+    background-position-y: center;
+    filter: brightness(60%);
     display: flex;
     width: 100%;
-    box-sizing: border-box;
     padding: 0 240px;
     align-items: center;
     justify-content: space-between;
