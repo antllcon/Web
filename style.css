@@ -1,107 +1,119 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap');
 
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-
-.buttons {
-    font-family: Oxygen, sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    padding: 10px 20px;
+a {
+    text-decoration:none;
 }
-
-.buttons > a {
-    text-decoration: none;
+a:hover {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:active {
     color: black;
 }
 
-/* разобраться что лучше делать padding или height */
 .header_subjects {
-    display: flex;
+    height: 74px;
     padding: 17px 250px;
-    justify-content: space-between;
+}
+
+.subjects_logo {
+    display: inline-block;
+    float: left;
+    background-image: url("sous/Escape.svg");
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 92px;
 }
 
 .header_subjects_buttons {
-    display: flex;
-    width: 376px;
-    justify-content: flex-end;
+    display: inline-block;
+    float: right;
+}
+
+.button_header {
+    font-family: "Oxygen", sans-serif;
+    display: inline-block;
+    background-color: white;
     color: black;
+    padding: 10px 20px;
+    border: none;
 }
 
 .main_title_block {
-    padding-top: 89px;
-    padding-bottom: 113px;
-    text-align: center;
+    display: block;
+    height: 286px;
+    padding: 89px 250px;
 }
 
 .main_title_block_first_text {
-    font-family: Lora, serif;
-    font-size: 50px;
+    font-family: "Lora", serif;
     font-weight: 400;
+    font-size: 50px;
     line-height: 51px;
-    letter-spacing: 2px;
+    display: block;
+    text-align: center;
     margin-top: -7px;
 }
 
-.main_title_block_two_text {
-    font-family: Oxygen, sans-serif;
-    font-size: 17px;
+.main_title_block_second_text {
+    font-family: "Oxygen", sans-serif;
     font-weight: 400;
+    font-size: 17px;
     line-height: 20px;
+    display: block;
+    text-align: center;
+    color: black;
+    opacity: 63%;
     margin-top: 20px;
-    color: #2e2e2e;
 }
 
 .main_image {
+    display: block;
     width: 100%;
 }
 
 .main_content {
-    padding: 140px 240px 135px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    align-items: center;
+    display: block;
+    padding: 140px 240px 100px 240px;
 }
 
 .main_content_text {
-    font-family: Oxygen, sans-serif;
-    font-size: 24px;
+    display: block;
+    font-family: "Oxygen", sans-serif;
     font-weight: 400;
+    font-size: 24px;
     line-height: 35px;
-    max-width: 960px;
-}
-
-.footer {
-    display: flex;
-    justify-content: center;
-    height: 89px;
+    margin: 0 0 35px 0;
+    color: #101315;
 }
 
 .footer_subjects {
-    background-image: url("sous/footer_background.jpg");
-    background-size: 100%;
-    background-position-y: center;
-    filter: brightness(60%);
-    display: flex;
-    width: 100%;
-    padding: 0 240px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.footer_subjects_logo path {
-    fill: #fff;
+    height: 89px;
+    padding: 27px 240px;
 }
 
 .footer_subjects_buttons {
-    display: flex;
+    display: inline-block;
+    float: right;
 }
 
-.footer_subjects_buttons a {
-    color: white;
+.button_footer {
+    font-family: "Oxygen", sans-serif;
+    display: inline-block;
+    background: none;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+}
+
+.footer_background {
+    background-image: url("sous/footer_background.jpg");
+    background-repeat: no-repeat;
 }
