@@ -8,28 +8,19 @@
 a {
     text-decoration:none;
 }
-a:hover {
-    color: black;
-}
-a:visited {
-    color: black;
-}
-a:active {
-    color: black;
-}
 
-.header_subjects {
-    height: 74px;
-    padding: 17px 250px;
-}
-
-.subjects_logo {
+.logo {
     display: inline-block;
     float: left;
     background-image: url("sous/Escape.svg");
     background-repeat: no-repeat;
     height: 26px;
     width: 92px;
+}
+
+.header_subjects {
+    height: 74px;
+    padding: 17px 250px;
 }
 
 .header_subjects_buttons {
@@ -41,9 +32,12 @@ a:active {
     font-family: "Oxygen", sans-serif;
     display: inline-block;
     background-color: white;
-    color: black;
     padding: 10px 20px;
     border: none;
+}
+
+.header_links {
+    color: black;
 }
 
 .main_title_block {
@@ -95,25 +89,54 @@ a:active {
 }
 
 .footer_subjects {
-    height: 89px;
-    padding: 27px 240px;
+    height: 33px;
+    width: auto;
+    margin: 28px 240px;
+    position: relative;
 }
 
 .footer_subjects_buttons {
-    display: inline-block;
-    float: right;
+    right: 0;
+    position: absolute;
+    width: 272px;
+    height: 33px;
 }
 
 .button_footer {
     font-family: "Oxygen", sans-serif;
-    display: inline-block;
+    font-size: 11px;
+    line-height: 26px;
     background: none;
-    color: black;
-    padding: 10px 20px;
+    margin: 3.5px 20px 3.5px 0;
     border: none;
+    float: left;
 }
 
-.footer_background {
-    background-image: url("sous/footer_background.jpg");
+.footer_links {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.logo_inversion {
+    background-image: url("sous/Escape_inversive.svg");
+    background-position: center;
+    display: inline-block;
+    position: absolute;
     background-repeat: no-repeat;
+    height: 26px;
+    width: 92px;
+    bottom: 0;
+    left: 0;
+}
+
+.footer {
+    background-image: url("./sous/footer_background.jpg");
+    background-position: 50% 50%;
+    background-blend-mode: darken;
+    background-size: 100%;
+    background-color: rgba(35, 47, 56, 0.6);
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+    height: 89px;
+    position: absolute;
 }
