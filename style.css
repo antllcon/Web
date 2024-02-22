@@ -1,119 +1,129 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap');
-
 * {
+    font-family: Oxygen;
     padding: 0;
     margin: 0;
+    color: #2E2E2E;
     box-sizing: border-box;
 }
-a {
-    text-decoration:none;
-}
-a:hover {
-    color: black;
-}
-a:visited {
-    color: black;
-}
-a:active {
-    color: black;
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
 }
 
-.header_subjects {
-    height: 74px;
-    padding: 17px 250px;
+.header {
+    width: 100%;
+    padding: 17px 0;
 }
 
-.subjects_logo {
-    display: inline-block;
-    float: left;
-    background-image: url("sous/Escape.svg");
-    background-repeat: no-repeat;
-    height: 26px;
-    width: 92px;
-}
-
-.header_subjects_buttons {
-    display: inline-block;
-    float: right;
-}
-
-.button_header {
-    font-family: "Oxygen", sans-serif;
-    display: inline-block;
-    background-color: white;
-    color: black;
-    padding: 10px 20px;
-    border: none;
-}
-
-.main_title_block {
-    display: block;
-    height: 286px;
-    padding: 89px 250px;
-}
-
-.main_title_block_first_text {
-    font-family: "Lora", serif;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 51px;
-    display: block;
-    text-align: center;
-    margin-top: -7px;
-}
-
-.main_title_block_second_text {
-    font-family: "Oxygen", sans-serif;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 20px;
-    display: block;
-    text-align: center;
-    color: black;
-    opacity: 63%;
-    margin-top: 20px;
-}
-
-.main_image {
+.header__navigation {
     display: block;
     width: 100%;
+    max-width: 940px;
+    height: 40px;
+    margin: 0 auto;
 }
 
-.main_content {
-    display: block;
-    padding: 140px 240px 100px 240px;
+.logo {
+    display: inline-block;
+    width: 92px;
+    height: 26px;
+    margin: 4px 0;
 }
 
-.main_content_text {
-    display: block;
-    font-family: "Oxygen", sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 35px;
-    margin: 0 0 35px 0;
-    color: #101315;
-}
-
-.footer_subjects {
-    height: 89px;
-    padding: 27px 240px;
-}
-
-.footer_subjects_buttons {
+.header__links-block {
     display: inline-block;
     float: right;
 }
 
-.button_footer {
-    font-family: "Oxygen", sans-serif;
+.header__link {
     display: inline-block;
-    background: none;
-    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgba(46, 46, 46, 1);
     padding: 10px 20px;
-    border: none;
 }
 
-.footer_background {
-    background-image: url("sous/footer_background.jpg");
-    background-repeat: no-repeat;
+.title_block {
+    margin-top: 89px;
+    margin-bottom: 116px;
+    text-align: center;
 }
+
+.title {
+    font-family: Lora;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.description {
+    font-size: 17px;
+    font-weight: 400;
+    opacity: 63%;
+}
+
+.article_image {
+    height: 534px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main__text-block {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #101315;
+    margin: 140px auto 135px auto;
+}
+
+.footer {
+    width: 100%;
+    padding: 28px 0px;
+    background-position: center;
+    background-color: rgba(35, 47, 56, 0.6);
+    background-image: url("source/footer_background.jpg");
+    background-blend-mode: darken;
+}
+
+.footer__navigation {
+    display: block;
+    width: 100%;
+    max-width: 960px;
+    height: 34px;
+}
+
+.logo_inversion {
+    display: inline-block;
+    width: 92px;
+    height: 26px;
+    margin: 4px 0;
+}
+
+.footer__links-block {
+    display: inline-block;
+    float: right;
+}
+
+.footer__link {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 10px 10px;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
