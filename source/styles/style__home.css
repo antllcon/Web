@@ -1,0 +1,11 @@
+
+.header {
+    background-image: url("/source/pictures/desert_mountains.jpeg");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
