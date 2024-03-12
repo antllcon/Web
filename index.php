@@ -12,7 +12,7 @@
 <body class="body">
 <header class="header">
 	<nav class="navigation container">
-		<a href="#"><img class="navigation__logo" src="source/pictures/escape_inversion.svg" alt="Escape inversion"></a>
+		<a href="index.php"><img class="navigation__logo" src="source/pictures/escape_inversion.svg" alt="Escape inversion"></a>
 		<ul class="navigation-list">
 			<li class="navigation__item">
 				<a class="navigation__link" href="#">home</a>
