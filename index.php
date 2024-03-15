@@ -1,7 +1,9 @@
 <?php
+
 $posts = [
-  //свойства постов
+    //свойства постов
     [
+        'id' => 1,
         'background' => 'static/pictures/home/northern_lights.png',
         'title' => 'The Road Ahead',
         'subtitle' => 'The road ahead might be paved - it might not be.',
@@ -9,8 +11,9 @@ $posts = [
         'author' => 'Mat Vogels',
         'create_date' => '1443157200',
     ],
-
+    
     [
+        'id' => 2,
         'background' => 'static/pictures/home/night_lamp.png',
         'title' => 'From Top Down',
         'subtitle' => 'Once a year, go someplace you’ve never been before.',
@@ -20,10 +23,10 @@ $posts = [
     ],
 ];
 
-
-$alternative_posts = [
-  //свойства альтернативных постов
+$alternativePosts = [
+    //свойства альтернативных постов
     [
+        'id' => 3,
         'image' => 'static/pictures/home/balloons.jpeg',
         'title' => 'Still Standing Tall',
         'subtitle' => 'Life begins at the end of your comfort zone.',
@@ -31,8 +34,9 @@ $alternative_posts = [
         'author' => 'William Wong',
         'create_date' => '1443157200',
     ],
-
+    
     [
+        'id' => 4,
         'image' => 'static/pictures/home/bridge.jpeg',
         'title' => 'Sunny Side Up',
         'subtitle' => 'No place is ever as bad as they tell you it’s going to be.',
@@ -40,8 +44,9 @@ $alternative_posts = [
         'author' => 'Mat Vogels',
         'create_date' => '1443157200',
     ],
-
+    
     [
+        'id' => 5,
         'image' => 'static/pictures/home/water.jpeg',
         'title' => 'Water Falls',
         'subtitle' => 'We travel not to escape life, but for life not to escape us.',
@@ -49,8 +54,9 @@ $alternative_posts = [
         'author' => 'Mat Vogels',
         'create_date' => '1443157200',
     ],
-
+    
     [
+        'id' => 6,
         'image' => 'static/pictures/home/ocean.jpeg',
         'title' => 'Through the Mist',
         'subtitle' => 'Travel makes you see what a tiny place you occupy in the world.',
@@ -58,8 +64,9 @@ $alternative_posts = [
         'author' => 'William Wong',
         'create_date' => '1443157200',
     ],
-
+    
     [
+        'id' => 7,
         'image' => 'static/pictures/home/fog.jpeg',
         'title' => 'Awaken Early',
         'subtitle' => 'Not all those who wander are lost.',
@@ -67,8 +74,9 @@ $alternative_posts = [
         'author' => 'Mat Vogels',
         'create_date' => '1443157200',
     ],
-
+    
     [
+        'id' => 8,
         'image' => 'static/pictures/home/rainbow.jpeg',
         'title' => 'Try it Always',
         'subtitle' => 'The world is a book, and those who do not travel read only one page.',
@@ -77,6 +85,7 @@ $alternative_posts = [
         'create_date' => '1443157200',
     ],
 ];
+
 ?>
 
 <!doctype html>
@@ -84,9 +93,9 @@ $alternative_posts = [
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="static/styles/style-home.css">
 	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap"
 				rel="stylesheet">
+	<link rel="stylesheet" href="static/styles/style.css">
 	<title>Home</title>
 </head>
 <body class="body">
@@ -113,7 +122,7 @@ $alternative_posts = [
 	<div class="banner-theme container">
 		<h1 class="banner-theme__title">Let's do it together.</h1>
 		<p class="banner-theme__subtitle">We travel the world in search of stories. Come along for the ride.</p>
-		<a class="banner-theme__soft-call-to-action" href="http://localhost:8080">View Latest Posts</a>
+		<button class="banner-theme__soft-call-to-action">View Latest Posts</button>
 	</div>
 </header>
 
@@ -145,35 +154,36 @@ $alternative_posts = [
 		<h3 class="theme-name__title">Featured Posts</h3>
 		<hr class="theme-name__line">
 	</div>
-
+	
 	<div class="posts-area container">
-    <?php
-    foreach ($posts as $post) {
-      include 'post-sample.php';
-    }
-    ?>
+      <?php
+      foreach ($posts as $post) {
+          include './post-preview.php';
+      }
+      ?>
 	</div>
-
+	
 	<div class="theme-name container">
 		<h2 class="theme-name__title">Most Recent</h2>
 		<hr class="theme-name__line">
 	</div>
-
+	
 	<div class="alternative-posts-area container">
-    <?php
-    foreach ($alternative_posts as $alternative_post) {
-      include 'alternative-post-sample.php';
-    }
-    ?>
+      <?php
+      foreach ($alternativePosts as $alternativePost) {
+          include './alternative-post-preview.php';
+      }
+      ?>
 	</div>
 </main>
 
 <footer class="footer">
 	<nav class="alternative-navigation container">
-		<a href="#"><img class="navigation__logo" src="static/pictures/escape_inversion.svg" alt="Escape inversion"></a>
+		<a href="http://localhost:8080/home"><img class="navigation__logo" src="static/pictures/escape_inversion.svg"
+																							alt="Escape inversion"></a>
 		<ul class="alternative-navigation__list">
 			<li class="alternative-navigation__item">
-				<a class="alternative-navigation__link" href="#">home</a>
+				<a class="alternative-navigation__link" href="http://localhost:8080/home">home</a>
 			</li>
 			<li class="alternative-navigation__item">
 				<a class="alternative-navigation__link" href="#">categories</a>
