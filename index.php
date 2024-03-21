@@ -4,22 +4,24 @@ $posts = [
     //свойства постов
     [
         'id' => 1,
+				'button' => '',
         'background' => 'static/pictures/home/northern_lights.png',
         'title' => 'The Road Ahead',
         'subtitle' => 'The road ahead might be paved - it might not be.',
-        'author_face' => 'static/pictures/authors/mat-vogels.jpeg',
+        'authorFace' => 'static/pictures/authors/mat-vogels.jpeg',
         'author' => 'Mat Vogels',
-        'create_date' => '1443157200',
+        'createDate' => '1443157200',
     ],
     
     [
         'id' => 2,
+        'button' => 'adventure',
         'background' => 'static/pictures/home/night_lamp.png',
         'title' => 'From Top Down',
         'subtitle' => 'Once a year, go someplace you’ve never been before.',
-        'author_face' => 'static/pictures/authors/william-wong.jpeg',
+        'authorFace' => 'static/pictures/authors/william-wong.jpeg',
         'author' => 'William Wong',
-        'create_date' => '1443157200',
+        'createDate' => '1443157200',
     ],
 ];
 
@@ -30,9 +32,9 @@ $alternativePosts = [
         'image' => 'static/pictures/home/balloons.jpeg',
         'title' => 'Still Standing Tall',
         'subtitle' => 'Life begins at the end of your comfort zone.',
-        'author_face' => 'static/pictures/authors/william-wong.jpeg',
+        'authorFace' => 'static/pictures/authors/william-wong.jpeg',
         'author' => 'William Wong',
-        'create_date' => '1443157200',
+        'createDate' => '1443157200',
     ],
     
     [
@@ -40,9 +42,9 @@ $alternativePosts = [
         'image' => 'static/pictures/home/bridge.jpeg',
         'title' => 'Sunny Side Up',
         'subtitle' => 'No place is ever as bad as they tell you it’s going to be.',
-        'author_face' => 'static/pictures/authors/mat-vogels.jpeg',
+        'authorFace' => 'static/pictures/authors/mat-vogels.jpeg',
         'author' => 'Mat Vogels',
-        'create_date' => '1443157200',
+        'createDate' => '1443157200',
     ],
     
     [
@@ -50,9 +52,9 @@ $alternativePosts = [
         'image' => 'static/pictures/home/water.jpeg',
         'title' => 'Water Falls',
         'subtitle' => 'We travel not to escape life, but for life not to escape us.',
-        'author_face' => 'static/pictures/authors/mat-vogels.jpeg',
+        'authorFace' => 'static/pictures/authors/mat-vogels.jpeg',
         'author' => 'Mat Vogels',
-        'create_date' => '1443157200',
+        'createDate' => '1443157200',
     ],
     
     [
@@ -60,9 +62,9 @@ $alternativePosts = [
         'image' => 'static/pictures/home/ocean.jpeg',
         'title' => 'Through the Mist',
         'subtitle' => 'Travel makes you see what a tiny place you occupy in the world.',
-        'author_face' => 'static/pictures/authors/william-wong.jpeg',
+        'authorFace' => 'static/pictures/authors/william-wong.jpeg',
         'author' => 'William Wong',
-        'create_date' => '1443157200',
+        'createDate' => '1443157200',
     ],
     
     [
@@ -70,9 +72,9 @@ $alternativePosts = [
         'image' => 'static/pictures/home/fog.jpeg',
         'title' => 'Awaken Early',
         'subtitle' => 'Not all those who wander are lost.',
-        'author_face' => 'static/pictures/authors/mat-vogels.jpeg',
+        'authorFace' => 'static/pictures/authors/mat-vogels.jpeg',
         'author' => 'Mat Vogels',
-        'create_date' => '1443157200',
+        'createDate' => '1443157200',
     ],
     
     [
@@ -80,9 +82,9 @@ $alternativePosts = [
         'image' => 'static/pictures/home/rainbow.jpeg',
         'title' => 'Try it Always',
         'subtitle' => 'The world is a book, and those who do not travel read only one page.',
-        'author_face' => 'static/pictures/authors/mat-vogels.jpeg',
+        'authorFace' => 'static/pictures/authors/mat-vogels.jpeg',
         'author' => 'Mat Vogels',
-        'create_date' => '1443157200',
+        'createDate' => '1443157200',
     ],
 ];
 

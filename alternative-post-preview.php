@@ -10,11 +10,11 @@
 		</div>
 		<hr class="alternative-post__line">
 		<div class="alternative-post__info">
-			<div class="post__writer"><img class="info__avatar" src="<?= $alternativePost['author_face'] ?>"
+			<div class="post__writer"><img class="info__avatar" src="<?= $alternativePost['authorFace'] ?>"
 																		 alt="<?= $alternativePost['author'] ?>">
 				<p class="post__text"><?= $alternativePost['author'] ?></p>
 			</div>
-			<p class="post__text"><?= date("m/d/Y", $alternativePost['create_date']) ?></p>
+			<p class="post__text"><?= date("m/d/Y", $alternativePost['createDate']) ?></p>
 		</div>
 	</div>
 </a>
