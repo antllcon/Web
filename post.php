@@ -61,9 +61,9 @@ $postContent = [
 
 <body>
 <header class="header">
-	<a class="logo" href="http://localhost:8080/home"><img src="static/pictures/escape.svg" alt="logo"></a>
+	<a class="logo" href="home"><img src="static/pictures/escape.svg" alt="logo"></a>
 	<div class="header__links-block">
-		<a class="header__link" href="http://localhost:8080/home">home</a>
+		<a class="header__link" href="home">home</a>
 		<a class="header__link" href="#">categories</a>
 		<a class="header__link" href="#">about</a>
 		<a class="header__link" href="#">contact</a>
@@ -78,10 +78,10 @@ $postContent = [
 <p class="main__text-block container"><?= $postContent['text'] ?></p>
 
 <footer class="footer">
-	<a class="logo_inversion" href="http://localhost:8080/home"><img src="static/pictures/escape_inversion.svg"
+	<a class="logo_inversion" href="home"><img src="static/pictures/escape_inversion.svg"
 																																	 alt="logo"></a>
 	<div class="navigation__links-block">
-		<a class="navigation__link" href="http://localhost:8080/home">home</a>
+		<a class="navigation__link" href="home">home</a>
 		<a class="navigation__link" href="#">categories</a>
 		<a class="navigation__link" href="#">about</a>
 		<a class="navigation__link" href="#">contact</a>

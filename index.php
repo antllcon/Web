@@ -4,13 +4,13 @@ $posts = [
     //свойства постов
     [
         'id' => 1,
-				'button' => '',
+        'button' => '',
         'background' => 'static/pictures/home/northern_lights.png',
         'title' => 'The Road Ahead',
         'subtitle' => 'The road ahead might be paved - it might not be.',
         'authorFace' => 'static/pictures/authors/mat-vogels.jpeg',
         'author' => 'Mat Vogels',
-        'createDate' => '1443157200',
+        'createDate' => 1443157200,
     ],
     
     [
@@ -21,7 +21,7 @@ $posts = [
         'subtitle' => 'Once a year, go someplace you’ve never been before.',
         'authorFace' => 'static/pictures/authors/william-wong.jpeg',
         'author' => 'William Wong',
-        'createDate' => '1443157200',
+        'createDate' => 1443157200,
     ],
 ];
 
@@ -34,7 +34,7 @@ $alternativePosts = [
         'subtitle' => 'Life begins at the end of your comfort zone.',
         'authorFace' => 'static/pictures/authors/william-wong.jpeg',
         'author' => 'William Wong',
-        'createDate' => '1443157200',
+        'createDate' => 1443157200,
     ],
     
     [
@@ -44,7 +44,7 @@ $alternativePosts = [
         'subtitle' => 'No place is ever as bad as they tell you it’s going to be.',
         'authorFace' => 'static/pictures/authors/mat-vogels.jpeg',
         'author' => 'Mat Vogels',
-        'createDate' => '1443157200',
+        'createDate' => 1443157200,
     ],
     
     [
@@ -54,7 +54,7 @@ $alternativePosts = [
         'subtitle' => 'We travel not to escape life, but for life not to escape us.',
         'authorFace' => 'static/pictures/authors/mat-vogels.jpeg',
         'author' => 'Mat Vogels',
-        'createDate' => '1443157200',
+        'createDate' => 1443157200,
     ],
     
     [
@@ -64,7 +64,7 @@ $alternativePosts = [
         'subtitle' => 'Travel makes you see what a tiny place you occupy in the world.',
         'authorFace' => 'static/pictures/authors/william-wong.jpeg',
         'author' => 'William Wong',
-        'createDate' => '1443157200',
+        'createDate' => 1443157200,
     ],
     
     [
@@ -74,7 +74,7 @@ $alternativePosts = [
         'subtitle' => 'Not all those who wander are lost.',
         'authorFace' => 'static/pictures/authors/mat-vogels.jpeg',
         'author' => 'Mat Vogels',
-        'createDate' => '1443157200',
+        'createDate' => 1443157200,
     ],
     
     [
@@ -84,7 +84,7 @@ $alternativePosts = [
         'subtitle' => 'The world is a book, and those who do not travel read only one page.',
         'authorFace' => 'static/pictures/authors/mat-vogels.jpeg',
         'author' => 'Mat Vogels',
-        'createDate' => '1443157200',
+        'createDate' => 1443157200,
     ],
 ];
 
@@ -104,11 +104,11 @@ $alternativePosts = [
 
 <header class="header">
 	<nav class="navigation container">
-		<a href="http://localhost:8080/home"><img class="navigation__logo" src="static/pictures/escape_inversion.svg"
+		<a href="home"><img class="navigation__logo" src="static/pictures/escape_inversion.svg"
 																							alt="Escape inversion"></a>
 		<ul class="navigation-list">
 			<li class="navigation__item">
-				<a class="navigation__link" href="http://localhost:8080/home">home</a>
+				<a class="navigation__link" href="home">home</a>
 			</li>
 			<li class="navigation__item">
 				<a class="navigation__link" href="#">categories</a>
@@ -181,11 +181,11 @@ $alternativePosts = [
 
 <footer class="footer">
 	<nav class="alternative-navigation container">
-		<a href="http://localhost:8080/home"><img class="navigation__logo" src="static/pictures/escape_inversion.svg"
+		<a href="home"><img class="navigation__logo" src="static/pictures/escape_inversion.svg"
 																							alt="Escape inversion"></a>
 		<ul class="alternative-navigation__list">
 			<li class="alternative-navigation__item">
-				<a class="alternative-navigation__link" href="http://localhost:8080/home">home</a>
+				<a class="alternative-navigation__link" href="home">home</a>
 			</li>
 			<li class="alternative-navigation__item">
 				<a class="alternative-navigation__link" href="#">categories</a>
